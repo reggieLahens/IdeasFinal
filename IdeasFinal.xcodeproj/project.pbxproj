@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0267F691CDD1A5900D395CB /* IdeasHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0267F681CDD1A5900D395CB /* IdeasHome.swift */; };
 		E08F7B291CDCE377008CFE40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08F7B281CDCE377008CFE40 /* AppDelegate.swift */; };
 		E08F7B301CDCE377008CFE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08F7B2F1CDCE377008CFE40 /* Assets.xcassets */; };
 		E08F7B331CDCE377008CFE40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08F7B311CDCE377008CFE40 /* LaunchScreen.storyboard */; };
@@ -16,6 +17,11 @@
 		E08F7B5B1CDCE4EA008CFE40 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08F7B5A1CDCE4EA008CFE40 /* NoteDetailViewController.swift */; };
 		E08F7B5D1CDCE4F7008CFE40 /* NotesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08F7B5C1CDCE4F7008CFE40 /* NotesListTableViewController.swift */; };
 		E08F7B5F1CDCE552008CFE40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08F7B5E1CDCE552008CFE40 /* Main.storyboard */; };
+		E08F7B9F1CDD0FD7008CFE40 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08F7B9B1CDD0FD7008CFE40 /* Fabric.framework */; };
+		E08F7BA01CDD0FD7008CFE40 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08F7B9C1CDD0FD7008CFE40 /* TwitterKit.framework */; };
+		E08F7BA11CDD0FD8008CFE40 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E08F7B9D1CDD0FD7008CFE40 /* TwitterKitResources.bundle */; };
+		E08F7BA21CDD0FD8008CFE40 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08F7B9E1CDD0FD7008CFE40 /* TwitterCore.framework */; };
+		E08F7BA41CDD13D1008CFE40 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08F7BA31CDD13D1008CFE40 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E0267F681CDD1A5900D395CB /* IdeasHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeasHome.swift; sourceTree = "<group>"; };
 		E08F7B251CDCE377008CFE40 /* IdeasFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdeasFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08F7B281CDCE377008CFE40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E08F7B2F1CDCE377008CFE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		E08F7B5A1CDCE4EA008CFE40 /* NoteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteDetailViewController.swift; path = "../../../Downloads/Final-master/NoteDetailViewController.swift"; sourceTree = "<group>"; };
 		E08F7B5C1CDCE4F7008CFE40 /* NotesListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotesListTableViewController.swift; path = "../../../Downloads/Final-master/NotesListTableViewController.swift"; sourceTree = "<group>"; };
 		E08F7B5E1CDCE552008CFE40 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		E08F7B9B1CDD0FD7008CFE40 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		E08F7B9C1CDD0FD7008CFE40 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		E08F7B9D1CDD0FD7008CFE40 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		E08F7B9E1CDD0FD7008CFE40 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		E08F7BA31CDD13D1008CFE40 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E08F7B9F1CDD0FD7008CFE40 /* Fabric.framework in Frameworks */,
+				E08F7BA21CDD0FD8008CFE40 /* TwitterCore.framework in Frameworks */,
+				E08F7BA01CDD0FD7008CFE40 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,10 @@
 				E08F7B3C1CDCE378008CFE40 /* IdeasFinalTests */,
 				E08F7B471CDCE378008CFE40 /* IdeasFinalUITests */,
 				E08F7B261CDCE377008CFE40 /* Products */,
+				E08F7B9B1CDD0FD7008CFE40 /* Fabric.framework */,
+				E08F7B9C1CDD0FD7008CFE40 /* TwitterKit.framework */,
+				E08F7B9D1CDD0FD7008CFE40 /* TwitterKitResources.bundle */,
+				E08F7B9E1CDD0FD7008CFE40 /* TwitterCore.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +124,8 @@
 				E08F7B5A1CDCE4EA008CFE40 /* NoteDetailViewController.swift */,
 				E08F7B5C1CDCE4F7008CFE40 /* NotesListTableViewController.swift */,
 				E08F7B5E1CDCE552008CFE40 /* Main.storyboard */,
+				E08F7BA31CDD13D1008CFE40 /* LoginViewController.swift */,
+				E0267F681CDD1A5900D395CB /* IdeasHome.swift */,
 				E08F7B281CDCE377008CFE40 /* AppDelegate.swift */,
 				E08F7B2F1CDCE377008CFE40 /* Assets.xcassets */,
 				E08F7B311CDCE377008CFE40 /* LaunchScreen.storyboard */,
@@ -141,6 +162,7 @@
 				E08F7B211CDCE377008CFE40 /* Sources */,
 				E08F7B221CDCE377008CFE40 /* Frameworks */,
 				E08F7B231CDCE377008CFE40 /* Resources */,
+				E08F7B9A1CDD0F8E008CFE40 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -235,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E08F7BA11CDD0FD8008CFE40 /* TwitterKitResources.bundle in Resources */,
 				E08F7B5F1CDCE552008CFE40 /* Main.storyboard in Resources */,
 				E08F7B331CDCE377008CFE40 /* LaunchScreen.storyboard in Resources */,
 				E08F7B301CDCE377008CFE40 /* Assets.xcassets in Resources */,
@@ -257,6 +280,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E08F7B9A1CDD0F8E008CFE40 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 13c089aeba041cb684f34e94e48e0e5368d5b2c6 82df37823b2334997357aa0da2b3f3a139b1fa48d2900982e6ab7ce845ddd133";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E08F7B211CDCE377008CFE40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +304,8 @@
 				E08F7B291CDCE377008CFE40 /* AppDelegate.swift in Sources */,
 				E08F7B5D1CDCE4F7008CFE40 /* NotesListTableViewController.swift in Sources */,
 				E08F7B591CDCE4E3008CFE40 /* Notes.swift in Sources */,
+				E0267F691CDD1A5900D395CB /* IdeasHome.swift in Sources */,
+				E08F7BA41CDD13D1008CFE40 /* LoginViewController.swift in Sources */,
 				E08F7B5B1CDCE4EA008CFE40 /* NoteDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +442,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = IdeasFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shp.org.IdeasFinal;
@@ -412,6 +457,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = IdeasFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shp.org.IdeasFinal;
@@ -484,6 +533,7 @@
 				E08F7B4F1CDCE378008CFE40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E08F7B501CDCE378008CFE40 /* Build configuration list for PBXNativeTarget "IdeasFinalTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +542,7 @@
 				E08F7B521CDCE378008CFE40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E08F7B531CDCE378008CFE40 /* Build configuration list for PBXNativeTarget "IdeasFinalUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +551,7 @@
 				E08F7B551CDCE378008CFE40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
